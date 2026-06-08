@@ -1,0 +1,5 @@
+Ticker,VolumeThresholdPercent,PricePercent,TotalAlerts,AlertsPerYear,AverageRVOL,MaximumRVOL,LargestSpike,FirstAlertDate,LastAlertDate,AlertDateCount
+VTI,50,,115,23.07,1.0093,5.2571,425.71,2021-07-19,2026-06-01,115
+VTI,100,,31,6.22,1.0093,5.2571,425.71,2021-09-20,2026-01-21,31
+VTI,150,,11,2.21,1.0093,5.2571,425.71,2022-01-24,2026-01-20,11
+VTI,200,,5,1.0,1.0093,5.2571,425.71,2022-01-24,2025-04-07,5

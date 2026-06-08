@@ -1,0 +1,58 @@
+{
+  "schedule": {
+    "interval_minutes": 15,
+    "market_start": "08:30",
+    "market_end": "15:30",
+    "timezone": "America/Chicago"
+  },
+  "notifications": {
+    "emails": [
+      "user1@example.com",
+      "user2@example.com"
+    ],
+    "texts": [
+      {
+        "number": "3125551234",
+        "carrier": "verizon"
+      },
+      {
+        "number": "7735559876",
+        "carrier": "tmobile"
+      }
+    ]
+  },
+  "smtp": {
+    "server": "smtp.gmail.com",
+    "port": 587,
+    "username": "your_email@gmail.com",
+    "password": "gmail_app_password"
+  },
+  "general": {
+    "market_holidays": true,
+    "skip_weekends": true,
+    "log_level": "INFO",
+    "alert_cooldown_minutes": 60
+  },
+  "backtest": {
+    "years": 5,
+    "generate_charts": true,
+    "generate_html_report": true
+  },
+  "symbols": [
+    {
+      "ticker": "VTI",
+      "enabled": true,
+      "average_days": 50,
+      "volume_percent": 100,
+      "direction": "up",
+      "repeat_alerts": false,
+      "minimum_volume": 1000000,
+      "price_filter": {
+        "enabled": false,
+        "percent": 2,
+        "direction": "up",
+        "reference": "previous_close"
+      }
+    }
+  ]
+}

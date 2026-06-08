@@ -1,0 +1,63 @@
+2026-06-06 12:49:02 ERROR StockVolumeAlerts: Fatal error: Missing config.json. Copy config.json.example to config.json.
+2026-06-06 12:52:51 INFO StockVolumeAlerts: Starting StockVolumeAlerts
+2026-06-06 12:52:51 INFO StockVolumeAlerts: Running backtest
+2026-06-06 12:52:51 INFO StockVolumeAlerts: Downloading historical data for VTI from 2021-02-12 to 2026-06-06
+2026-06-06 12:53:07 INFO StockVolumeAlerts: Shutdown complete
+2026-06-06 12:57:00 INFO StockVolumeAlerts: Starting StockVolumeAlerts
+2026-06-06 12:57:01 INFO StockVolumeAlerts: Running optimization
+2026-06-06 12:57:01 INFO StockVolumeAlerts: Downloading historical data for VTI from 2021-02-12 to 2026-06-06
+2026-06-06 12:57:08 INFO StockVolumeAlerts: Shutdown complete
+2026-06-06 13:06:33 INFO StockVolumeAlerts: Starting StockVolumeAlerts
+2026-06-06 13:06:34 INFO StockVolumeAlerts: Running optimization
+2026-06-06 13:06:34 INFO StockVolumeAlerts: Downloading historical data for VTI from 2021-02-12 to 2026-06-06
+2026-06-06 13:06:41 INFO StockVolumeAlerts: Shutdown complete
+2026-06-06 13:22:55 INFO StockVolumeAlerts: Starting StockVolumeAlerts
+2026-06-06 13:22:55 INFO StockVolumeAlerts: Running optimization
+2026-06-06 13:22:55 INFO StockVolumeAlerts: Downloading historical data for VTI from 2021-02-12 to 2026-06-06
+2026-06-06 13:23:02 INFO StockVolumeAlerts: Shutdown complete
+2026-06-06 13:36:37 INFO StockVolumeAlerts: Starting StockVolumeAlerts
+2026-06-06 13:36:37 INFO StockVolumeAlerts: Running optimization
+2026-06-06 13:36:37 INFO StockVolumeAlerts: Downloading historical data for VTI from 2021-02-12 to 2026-06-06
+2026-06-06 13:36:47 INFO StockVolumeAlerts: Shutdown complete
+2026-06-06 13:39:42 INFO StockVolumeAlerts: Starting StockVolumeAlerts
+2026-06-06 13:39:42 INFO StockVolumeAlerts: Running optimization
+2026-06-06 13:39:42 INFO StockVolumeAlerts: Downloading historical data for VTI from 2021-02-12 to 2026-06-06
+2026-06-06 13:39:49 INFO StockVolumeAlerts: Shutdown complete
+2026-06-06 13:43:50 INFO StockVolumeAlerts: Starting StockVolumeAlerts
+2026-06-06 13:43:50 INFO StockVolumeAlerts: Running optimization
+2026-06-06 13:43:50 INFO StockVolumeAlerts: Downloading historical data for VTI from 2021-02-12 to 2026-06-06
+2026-06-06 13:43:59 INFO StockVolumeAlerts: Shutdown complete
+2026-06-06 13:58:54 INFO StockVolumeAlerts: Starting StockVolumeAlerts
+2026-06-06 13:58:54 INFO StockVolumeAlerts: Running optimization
+2026-06-06 13:58:54 INFO StockVolumeAlerts: Downloading historical data for VTI from 2021-02-12 to 2026-06-06
+2026-06-06 13:59:01 INFO StockVolumeAlerts: Shutdown complete
+2026-06-06 14:02:38 INFO StockVolumeAlerts: Starting StockVolumeAlerts
+2026-06-06 14:02:38 INFO StockVolumeAlerts: Running optimization
+2026-06-06 14:02:38 INFO StockVolumeAlerts: Downloading historical data for VTI from 2021-02-12 to 2026-06-06
+2026-06-06 14:02:49 INFO StockVolumeAlerts: Shutdown complete
+2026-06-06 14:12:26 INFO StockVolumeAlerts: Starting StockVolumeAlerts
+2026-06-06 14:12:26 INFO StockVolumeAlerts: Running optimization
+2026-06-06 14:12:26 INFO StockVolumeAlerts: Downloading historical data for VTI from 2021-02-12 to 2026-06-06
+2026-06-06 14:12:33 INFO StockVolumeAlerts: Shutdown complete
+2026-06-08 11:23:13 INFO StockVolumeAlerts: Starting StockVolumeAlerts
+2026-06-08 11:23:13 INFO StockVolumeAlerts: Starting live monitor
+2026-06-08 11:23:13 INFO StockVolumeAlerts: Downloading live data for VTI
+2026-06-08 11:23:23 INFO StockVolumeAlerts: No alert for VTI
+2026-06-08 11:38:23 INFO StockVolumeAlerts: Downloading live data for VTI
+2026-06-08 11:38:29 INFO StockVolumeAlerts: No alert for VTI
+2026-06-08 11:53:29 INFO StockVolumeAlerts: Downloading live data for VTI
+2026-06-08 11:53:31 INFO StockVolumeAlerts: No alert for VTI
+2026-06-08 12:08:31 INFO StockVolumeAlerts: Downloading live data for VTI
+2026-06-08 12:08:33 INFO StockVolumeAlerts: No alert for VTI
+2026-06-08 12:23:33 INFO StockVolumeAlerts: Downloading live data for VTI
+2026-06-08 12:23:36 INFO StockVolumeAlerts: No alert for VTI
+2026-06-08 12:38:36 INFO StockVolumeAlerts: Downloading live data for VTI
+2026-06-08 12:38:38 INFO StockVolumeAlerts: No alert for VTI
+2026-06-08 12:53:38 INFO StockVolumeAlerts: Downloading live data for VTI
+2026-06-08 12:53:41 INFO StockVolumeAlerts: No alert for VTI
+2026-06-08 13:08:41 INFO StockVolumeAlerts: Downloading live data for VTI
+2026-06-08 13:08:43 INFO StockVolumeAlerts: No alert for VTI
+2026-06-08 13:23:43 INFO StockVolumeAlerts: Downloading live data for VTI
+2026-06-08 13:23:46 INFO StockVolumeAlerts: No alert for VTI
+2026-06-08 13:38:46 INFO StockVolumeAlerts: Downloading live data for VTI
+2026-06-08 13:38:48 INFO StockVolumeAlerts: No alert for VTI
