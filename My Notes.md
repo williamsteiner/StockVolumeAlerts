@@ -87,3 +87,8 @@ which is correct, but make sure you actually edited config.json and not config.j
 To exit the virtual environment, simply type:
 
 deactivate
+
+--------------
+git remote add origin https://github.com/williamsteiner/StockVolumeAlerts.git
+git push -u origin main
+

@@ -23,9 +23,13 @@ from typing import Any, Iterable, Sequence
 from zoneinfo import ZoneInfo
 
 import holidays
-import matplotlib.pyplot as plt
 import pandas as pd
 import yfinance as yf
+
+try:
+    import matplotlib.pyplot as plt
+except ModuleNotFoundError:
+    plt = None
 
 
 APP_NAME = "StockVolumeAlerts"
@@ -396,7 +400,12 @@ class MarketCalendar:
     def __init__(self, config: AppConfig) -> None:
         self.config = config
         self.timezone = ZoneInfo(config.schedule.timezone)
-        self.us_holidays = holidays.country_holidays("US")
+        if hasattr(holidays, "country_holidays"):
+            self.us_holidays = holidays.country_holidays("US")
+        elif hasattr(holidays, "US"):
+            self.us_holidays = holidays.US()
+        else:
+            self.us_holidays = set()
 
     def now(self) -> datetime:
         """Return current time in configured timezone."""
@@ -1784,6 +1793,10 @@ def create_charts(
     detail_rows: Sequence[dict[str, Any]],
 ) -> None:
     """Generate required charts for a ticker."""
+
+    if plt is None:
+        print("Skipping charts: matplotlib is not installed.")
+        return
 
     CHARTS_DIR.mkdir(parents=True, exist_ok=True)
     ticker_details = [row for row in detail_rows if row["Ticker"] == symbol.ticker]

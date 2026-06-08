@@ -6,3 +6,5 @@ reports/
 config.json
 .env
 .codex_deps/
+.codex_deps/
+.codex_run_deps/
